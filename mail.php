@@ -17,7 +17,7 @@ $mail->Port = 465;
 $mail->Username = 'sanjeewasenarathna03@gmail.com';
 
 //Set the password of your gmail address here
-$mail->Password = 'Bandaranayake.@03';
+$mail->Password = '**********';
 if(!$mail->send()) {
   echo 'Email is not sent.';
   echo 'Email error: ' . $mail->ErrorInfo;
